@@ -21,6 +21,8 @@ int main()
 	case',':cout << "(,)-це кома\n"; break;
 	case'?':cout << "(?)-це знак питання\n"; break;
 	case'!':cout << "(!)-це знак оклику\n"; break;
+	case'*':cout << "(*)-це знак множення\n"; break;
+	case'/':cout << "(/)-це знак ділення\n"; break;
 	default:cout << "такого розділового знаку не існує\n"; break;
 	}
 	system("pause");
